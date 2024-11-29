@@ -23,8 +23,8 @@ This project is a simple yet elegant image gallery web application built using H
    ```bash
    cd Image_Gallery
    ```
-3. **Open the Index File:**
-   - Open the `index.html` file in any modern web browser to view the gallery.
+3. **Open the Project File:**
+   - Open the `Project.html` file in any modern web browser to view the gallery.
   
    You do not need any additional software or libraries to run this project, as it's built with just HTML, CSS, and JavaScript.
 
