@@ -43,6 +43,10 @@ This project is a simple yet elegant image gallery web application built using H
 
 ![Settings Page](Screenshots/Modal.jpg)
 
+![Settings Page](Screenshots/FooterImage.jpg)
+
+![Settings Page](Screenshots/UploadPage.jpg)
+
 
 ### **Future Enhancements**
 - **Search Functionality:** Add a search bar to let users quickly find images by name or tag.
