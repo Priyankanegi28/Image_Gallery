@@ -41,11 +41,11 @@ This project is a simple yet elegant image gallery web application built using H
 ![Main Interface](Screenshots/Main.jpg)
 
 
-![Settings Page](Screenshots/Modal.jpg)
+![Modal Page](Screenshots/Modal.jpg)
 
-![Settings Page](Screenshots/FooterImage.jpg)
+![Footer Page](Screenshots/Footerimage.jpg)
 
-![Settings Page](Screenshots/UploadPage.jpg)
+![Upload Page](Screenshots/UploadPage.jpg)
 
 
 ### **Future Enhancements**
