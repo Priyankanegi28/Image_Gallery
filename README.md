@@ -1,4 +1,4 @@
-# Image_Gallery
+# Image_Gallery Project
 ### **Overview**
 This project is a simple yet elegant image gallery web application built using HTML, CSS, and JavaScript. The gallery displays images in a responsive grid layout, allowing users to easily browse and view images. The app includes interactive features like image previewing in a modal, sorting, and filtering options.
 
