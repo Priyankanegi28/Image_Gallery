@@ -35,6 +35,14 @@ This project is a simple yet elegant image gallery web application built using H
    - Click on any image to view it in a larger modal view with an option to close the modal when done.
 3. **Sorting & Filtering:**
    - Use the sort and filter options to organize and view specific sets of images based on categories or tags.
+  
+# Screenshots
+
+![Main Interface](Screenshots/Main.jpg)
+
+
+![Settings Page](Screenshots/Modal.jpg)
+
 
 ### **Future Enhancements**
 - **Search Functionality:** Add a search bar to let users quickly find images by name or tag.
