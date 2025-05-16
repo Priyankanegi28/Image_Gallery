@@ -17,7 +17,7 @@ This project is a simple yet elegant image gallery web application built using H
 ### **Installation**
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/Image_Gallery.git
+   git clone https://github.com/Priyankanegi28/Image_Gallery.git
    ```
 2. **Navigate to the Project Directory:**
    ```bash
