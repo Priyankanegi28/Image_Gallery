@@ -11,27 +11,30 @@
 </head>
 <body>
     <header>
-    <!-- Top Navigation Bar -->
-    <div class="navbar">
-        <!-- Logo -->
-        <div class="logo">
-            <img src="img/logoo.png" alt="Logo">
+        <!-- Top Navigation Bar -->
+        <div class="navbar">
+            <!-- Logo -->
+            <div class="logo">
+                <img src="img/logoo.png" alt="Logo">
+            </div>
+    
+            <!-- Hamburger Menu Icon (visible only on mobile) -->
+            <div class="hamburger-menu" id="hamburgerMenu">
+                <i class="fas fa-bars"></i>
+            </div>
+    
+            <!-- Search Bar and Features -->
+            <div class="nav-items" id="navItems">
+                <a href="#" id="homeButton">Home</a>
+                <a href="#" id="uploadButton">Upload</a>
+                <a href="#" id="createButton">Create</a>
+                <a href="#" id="favoritesButton">Favorites</a>
+    
+                <input type="search" class="search-bar" placeholder="Search..." id="searchInput">
+                <!-- Notification Icon -->
+                <i id="notificationIcon" class="fas fa-bell"></i>
+            </div>
         </div>
-
-        <!-- Search Bar and Features -->
-        <div class="nav-items">
-            <a href="#" id="homeButton" >Home</a>
-            <a href="#" id="uploadButton">Upload</a>
-            <a href="#" id="createButton">Create</a>
-             <a href="#" id="favoritesButton">Favorites</a>
-
-            <input type="search" class="search-bar" placeholder="Search..." id="searchInput">
-            <!-- Notification Icon -->
-            <i id="notificationIcon" class="fas fa-bell"></i>
-
-            
-        </div>
-    </div>
     </header>
 
     <!-- Image Gallery Section -->
@@ -290,7 +293,9 @@
   </div>
 </footer>
 
-
+<script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
     <script src="script.js"></script>
 </body>
 </html>
