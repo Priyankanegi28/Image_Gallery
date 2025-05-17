@@ -1,4 +1,4 @@
-// Search functionality
+ // Search functionality
 document.getElementById('searchInput').addEventListener('input', function() {
     const searchTerm = this.value.toLowerCase();
     const images = document.querySelectorAll('#imageGallery img');
@@ -488,47 +488,5 @@ document.addEventListener('DOMContentLoaded', () => {
         imageGallery.classList.add('hidden');
         uploadPage.classList.add('hidden');
         pagination.style.display = 'none'; // Hide pagination
-    });
-});
-
-// Hamburger menu functionality
-document.addEventListener('DOMContentLoaded', () => {
-    const hamburgerMenu = document.getElementById('hamburgerMenu');
-    const navItems = document.getElementById('navItems');
-
-    hamburgerMenu.addEventListener('click', () => {
-        navItems.classList.toggle('active');
-        
-        // Change icon based on menu state
-        const icon = hamburgerMenu.querySelector('i');
-        if (navItems.classList.contains('active')) {
-            icon.classList.remove('fa-bars');
-            icon.classList.add('fa-times');
-        } else {
-            icon.classList.remove('fa-times');
-            icon.classList.add('fa-bars');
-        }
-    });
-
-    // Close menu when clicking on a nav item
-    document.querySelectorAll('.nav-items a').forEach(item => {
-        item.addEventListener('click', () => {
-            if (window.innerWidth <= 768) {
-                navItems.classList.remove('active');
-                const icon = hamburgerMenu.querySelector('i');
-                icon.classList.remove('fa-times');
-                icon.classList.add('fa-bars');
-            }
-        });
-    });
-
-    // Close menu when clicking outside
-    document.addEventListener('click', (event) => {
-        if (!hamburgerMenu.contains(event.target) && !navItems.contains(event.target)) {
-            navItems.classList.remove('active');
-            const icon = hamburgerMenu.querySelector('i');
-            icon.classList.remove('fa-times');
-            icon.classList.add('fa-bars');
-        }
     });
 });
